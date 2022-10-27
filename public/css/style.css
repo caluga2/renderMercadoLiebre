@@ -126,7 +126,7 @@ i#iconBuscar{
 body{
     font-family: "Roboto";
     background-color:#ebebeb;
-    margin-top: 140px;
+    margin-top: 230px;
 }
 
 form{
@@ -150,26 +150,31 @@ form p{
     margin: 0 auto 28px 0;
 }
 
-section {
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    flex-wrap: wrap;
+.cards {
+    position:relative;
 }
 
 .titulocard{
-    clear: both;
     text-align: center;
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    clear: both;
 }
 
 .producto {
     margin-top: 10px;
     background-color: white;
-    width: 100%;
+    width: 18rem;
     transition: all 0,5s;
     clear: both;
     display: flex;
     flex-direction: column;
+    text-align: center;
     justify-content: center;
   }
   .producto:hover{
@@ -269,10 +274,10 @@ footer p.negrita{
 }
 
 footer .copyright{
-    margin-top: 30px;
+    margin-top: 1rem;
     display: flex;
     position: relative;
-    top: 20%;
+    justify-content: center;
 }
 
 div.IconTruck{
@@ -294,7 +299,9 @@ div.IconTruck{
     #menuBurger{
         display: none;
     }
-
+    body{
+        margin-top: 180px;
+    }
     section{
         display: flex;
         flex-direction: row;
@@ -325,17 +332,15 @@ div.IconTruck{
         display: none;
     }
 
+    body{
+        margin-top: 140px;
+    }
+
     section{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
       }
-
-    .producto{
-
-        flex-basis: 25%;
-        margin: 5px;
-    }
 }
 
